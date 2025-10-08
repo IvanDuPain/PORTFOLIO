@@ -30,7 +30,7 @@ body{
 .nav-list a:hover{color:var(--text);background:rgba(255,255,255,.04)}
 
 .hero{padding:96px 0;border-bottom:1px solid var(--border)}
-.hero-inner{display:grid;grid-template-columns:1.2fr .8fr;gap:32px;align-items:center}
+.hero-inner{display:grid;grid-template-columns:1.1fr .9fr;gap:32px;align-items:center}
 h1{font-size:44px;line-height:1.15;margin:0 0 12px}
 .subtitle{color:var(--muted);margin:0 0 24px}
 .accent{color:var(--accent)}

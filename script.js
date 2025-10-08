@@ -17,6 +17,9 @@ const siteData = {
   skills: []
 };
 
+// Toggle dynamic rendering for certain sections (useful for GitHub Pages)
+const RENDER_EXPERIENCES_FROM_JSON = false;
+
 function renderSite(data){
   const about = document.getElementById('about-text');
   if (about && data.about) about.textContent = data.about;
@@ -33,8 +36,7 @@ function renderSite(data){
   if (github && data.contact.github){ github.textContent = 'GitHub'; github.href = data.contact.github; }
 
   const expList = document.getElementById('experience-list');
-  if (expList && Array.isArray(data.experiences)){
-    // Append dynamic experiences after any static ones
+  if (RENDER_EXPERIENCES_FROM_JSON && expList && Array.isArray(data.experiences)){
     data.experiences.forEach(exp => {
       const card = document.createElement('article');
       card.className = 'card';

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <title>Portfolio - Iwan Mertil</title>
+    <meta name="description" content="Portfolio professionnel de Iwan Mertil: profil, expériences, projets et contact.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="container nav">
+            <a class="brand" href="#">Iwan Mertil</a>
+            <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+            <ul id="primary-nav" class="nav-list">
+                <li><a href="#a-propos">Introduction</a></li>
+                <li><a href="#experiences">Expériences</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-inner">
+                <div>
+                    <h1><span class="accent">Iwan Mertil</span></h1>
+                    <p class="subtitle">Étudiant en informatique — EPITA Toulouse</p>
+                    
+                    <div class="cta-row">
+                        <a class="btn primary" href="#contact">Me contacter</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <img class="hero-photo" src="assets/png/image.png" alt="Portrait de Iwan Mertil">
+                </div>
+                
+            </div>
+        </section>
+
+        <section id="a-propos" class="section">
+            <div class="container">
+                <h2>Introduction</h2>
+                <div class="rich">
+                    <h3>Présentation</h3>
+                    <p>
+                        Je m’appelle Iwan Mertil et je suis étudiant en informatique. 
+                        Passionné par les nouvelles technologies et la programmation, j’aime créer des projets concrets qui mettent en pratique mes compétences. 
+                        Curieux et motivé, je cherche constamment à apprendre de nouvelles choses, que ce soit à travers le développement d’applications, 
+                        la conception d’outils innovants ou la découverte de nouveaux langages. Mon objectif est de concevoir des solutions utiles, 
+                        efficaces et bien pensées, tout en continuant à progresser dans le domaine du numérique.
+                    </p>
+
+                    <h3>Études</h3>
+                    <ul>
+                        <li><strong>Classe préparatoire école d'ingénieur</strong> — Depuis 2023, EPITA, Toulouse, France</li>
+                        <li><strong>Baccalauréat Général Spécialité NSI / Maths</strong> — 2023, Lycée de la Possession, La Réunion</li>
+                        <li><strong>Brevet des collèges</strong> — 2020,  Collège Jean Albany, La Réunion</li>
+                    </ul>
+
+                    <h3>Compétences</h3>
+                    <p><strong>Hard skills</strong></p>
+                    <ul>
+                        <li>Langages de programmation: Python, C#, OCaml, C</li>
+                        <li>Pack Office</li>
+                    </ul>
+                    <p><strong>Soft skills</strong></p>
+                    <ul>
+                        <li>Travail en équipe</li>
+                        <li>Adaptabilité</li>
+                        <li>Communication</li>
+                        <li>Esprit d'initiative</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="experiences" class="section alt">
+            <div class="container">
+                <h2>Expériences</h2>
+                <div id="experience-list" class="timeline">
+                    <article class="card">
+                        <h3>Agent d'accueil</h3>
+                        <p class="meta">Bred</p>
+                        <p>Assure l’accueil et l’orientation des clients, répond à leurs questions sur les services bancaires, et facilite leurs démarches administratives. Garant de la qualité du service et du respect des procédures internes, il contribue à l’efficacité de l’agence tout en offrant une expérience client optimale.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Jury de la Nuit Du Code</h3>
+                        <p class="meta">Nuit Du Code</p>
+                        <p>Un jury de la Nuit du Code évalue les projets réalisés par les participants pendant le concours. Il observe le fonctionnement du jeu ou du programme créé, analyse le code, la créativité, la jouabilité et la présentation du projet, puis attribue une note ou un classement selon des critères définis (originalité, respect du thème, qualité technique, travail d’équipe, etc.). </p>
+                    </article>
+                    <article class="card">
+                        <h3>Coordinateur de JPO / salon</h3>
+                        <p class="meta">EPITA</p>
+                        <p>Un coordinateur de Journée Portes Ouvertes (JPO) ou de salon étudiant organise et supervise l’événement. Il s’assure que tout se déroule sans problème : accueil des visiteurs, gestion des stands, coordination des équipes et respect du planning. Il veille aussi à la bonne communication entre les exposants, les étudiants et l’administration, afin de garantir une expérience fluide et professionnelle pour tous les participants.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="projets" class="section">
+            <div class="container">
+                <h2>Projets</h2>
+                <div id="projects-grid" class="grid">
+                    <article class="project">
+                        <h3>Eduard le Père Noël</h3>
+                        <img src="assets/projects/eduard.png" alt="Capture du jeu Eduard le Père Noël" />
+                        <p>
+                            Réalisé en binôme au lycée dans le cadre d'un exercice de programmation. Inspiré du jeu Jetpack Joyride, le joueur incarne Eduard le Père Noël qui doit récupérer des cadeaux tout en évitant les sapins.
+                        </p>
+                        <p>
+                            J'ai contribué à la conception du gameplay, à la programmation des déplacements et collisions, ainsi qu'à la gestion du score. Ce projet m'a permis de développer mes compétences en logique algorithmique, en création de jeux 2D et en travail collaboratif.
+                        </p>
+                    </article>
+                    <article class="project">
+                        <h3>Operation Mona Lisa</h3>
+                        <img src="assets/projects/operation-mona-lisa.png" alt="Capture du jeu Operation Mona Lisa" />
+                        <p>
+                            Jeu créé avec Unity, inspiré du concept Trapper contre Runner. Le Runner doit arriver à la fin du parcours pour récupérer la Mona Lisa en esquivant les pièges, tandis que le Trapper essaie de le ralentir en les activant.
+                        </p>
+                        <p>
+                            Ce projet a été réalisé en groupe durant mon cursus à EPITA. J'ai pu améliorer mes compétences en C#, en conception de jeux et en gestion d'événements en temps réel.
+                        </p>
+                    </article>
+                    <article class="project">
+                        <h3>Projets OCR</h3>
+                        <img class="contain" src="assets/projects/ocr.png" alt="Capture d'écran du projet OCR (mot mêlé)" />
+                        <p>
+                            Ce projet est encore en cours de développement. L’objectif est de créer une intelligence artificielle capable de résoudre automatiquement un mot mêlé à partir d’une grille et d’une liste de mots.
+                        </p>
+                        <p>
+                            Nous travaillons sur des algorithmes de recherche permettant de détecter les mots dans toutes les directions (horizontale, verticale et diagonale). Je participe à la conception de la logique de recherche et à l’optimisation du code.
+                        </p>
+                        <p>
+                            Ce projet me permet de renforcer mes compétences en travail d’équipe, en algorithmique et en programmation en C.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Contact</h2>
+                <ul class="contact-list">
+                    <li><strong>Email:</strong> <a id="contact-email" href="mailto:iwan.mertil@epita.fr">iwan.mertil@epita.fr</a></li>
+                    <li><strong>Téléphone:</strong> <span id="contact-phone">0612345678</span></li>
+                    <li><strong>Localisation:</strong> <span id="contact-location">Toulouse, France</span></li>
+                    <li><strong>GitHub:</strong> <a id="contact-github" href="https://github.com/IvanDuPain" target="_blank" rel="noopener">github.com/IvanDuPain</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© <span id="year"></span> Iwan Mertil — Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
+

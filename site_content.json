@@ -1,0 +1,45 @@
+{
+  "about": "Je m'appelle Iwan Mertil et je suis étudiant en informatique. Passionné par les nouvelles technologies et la programmation, j'aime créer des projets concrets qui mettent en pratique mes compétences.",
+  "experiences": [
+    {
+      "title": "Agent d'accueil",
+      "company": "Banque",
+      "period": "",
+      "location": "",
+      "description": "J'étais chargé d'accueillir, informer et orienter les clients dès leur arrivée. Je répondais à leurs demandes, gérais les appels et veillais à offrir un service courtois et professionnel. Je contribuais également à la sécurité et à l'organisation de l'espace d'accueil, tout en représentant l'image de la banque."
+    },
+    {
+      "title": "Classe préparatoire école d'ingénieur",
+      "company": "EPITA",
+      "period": "Depuis 2023",
+      "location": "Toulouse, France",
+      "description": "Formation préparatoire d'ingénieur avec bases solides en informatique, mathématiques et sciences de l'ingénieur."
+    },
+    {
+      "title": "Baccalauréat Général Spécialité NSI / Maths",
+      "company": "Lycée de la Possession",
+      "period": "2023",
+      "location": "La Réunion",
+      "description": "Baccalauréat général avec spécialités Numérique et Sciences Informatiques et Mathématiques."
+    }
+  ],
+  "projects": [],
+  "skills": [
+    "Python",
+    "C#",
+    "OCaml",
+    "C",
+    "Pack Office",
+    "Travail en équipe",
+    "Adaptabilité",
+    "Communication",
+    "Esprit d'initiative"
+  ],
+  "contact": {
+    "email": "",
+    "phone": "",
+    "location": "Toulouse, France",
+    "linkedin": "",
+    "github": ""
+  }
+}
